@@ -109,6 +109,7 @@ footer nav a:hover {
 } 
 .photo-itm {
     width: 25%;
+    margin-bottom: 10px;
 }
 .photo-itm img {
     box-sizing: border-box;
@@ -246,7 +247,33 @@ textarea {
     height: 74px;
     background-color: #fbfbfb;
     transition: .3s easy;
+}
+.about-container {
+    width: 85%;
+    margin: 50px auto;
+    text-align: center;
+}
+.about-container img {
+    max-width: 100%;
+       
+}
 
+.about-container p {
+    margin-top: 50px;
+}
+.services {
+    width: 85%;
+    margin: 50px auto;
+    text-align: center;
+}
+.services img {
+    max-width: 100%;
+}
+.services-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px 100px;
 }
 
 
@@ -314,5 +341,8 @@ textarea {
         }
         .blog-container {
             width: 20rem;
+        }
+        .services-container {
+            grid-template-columns: auto;          
         }
     }
